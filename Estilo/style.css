@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --ligth: 300;
+    --regular: 400;
+    --semi-bold: 600;
+    --bold: 700;
+}
+
+body {
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+
+header {
+    height: 100px;
+    background-color: black;
+    color: #fff;
+}
+
+.header {
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logoimg {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    align-items: center;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu li,
+.menu ul {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: var(--semi-bold);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+.menu li a:hover,
+.menu .active a {
+    border-bottom: 4px solid orange;
+    color: rgb(223, 170, 71);
+}
+
+i {
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url('../complementos/bg.jpg');
+}
