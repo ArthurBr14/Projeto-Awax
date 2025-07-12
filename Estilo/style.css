@@ -14,6 +14,7 @@
 body {
     font-family: 'Montserrat';
     font-size: 14px;
+    overflow-x: hidden;
 }
 
 header {
@@ -125,8 +126,8 @@ i {
     margin-top: 20px;
 }
 
-.banner a {
-    display: block;
+.button {
+    display: inline-block;
     background-color: #b28756;
     color: #fff;
     text-transform: uppercase;
@@ -160,4 +161,85 @@ i {
 
 .banner .pointer.active {
     background-color: #B28756;
+}
+
+.default {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.default .section-desc,
+.default .section-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: var(--bold);
+}
+
+.default .section-title {
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.default .section-desc {
+    color: #ccc;
+    margin-top: 13px;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+
+.default .section-body {
+    max-width: 1140px;
+    margin: auto;
+    min-height: 100px;
+}
+
+.light {
+    background-color: #f7f7f7;
+
+}
+
+.dark {
+    color: #fff;
+    background-color: #000;
+}
+
+
+
+/*------------------Areas da apgina----------------*/
+.section-aboutus {
+    display: flex;
+}
+
+.section-aboutus--left {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.section-aboutus--left p {
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.section--aboutus--rigth {
+    width: 520px;
+    text-align: center;
+}
+
+.section--aboutus--rigth img {
+    width: 480px;
+    box-shadow: 0px 5px 10px #333;
+}
+
+.section-services {
+    display: flex;
+}
+
+.section--service {
+    flex: 1;
+    text-align: center;
+}
+
+.section--service img {
+    flex-wrap: nowrap;
 }
