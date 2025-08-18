@@ -231,7 +231,7 @@ i {
     box-shadow: 0px 5px 10px #333;
 }
 
-.section-services {
+.section--services {
     display: flex;
 }
 
