@@ -137,6 +137,8 @@ i {
     padding: 10px 30px;
     margin-top: 30px;
     border-radius: 17px;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner .sliders-pointers {
@@ -298,8 +300,42 @@ i {
     display: flex;
     /* Habilata uma das funções do Flex onde autoriza mandar o objeto para baixo*/
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .section-projects--photo {
     width: 280px;
+}
+
+.section-projects--photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-projects--photo img {
+    width: inherit;
+    /* O "inherit" serve para erdar as características do item anterior*/
+    height: inherit;
+}
+
+.section-projects--photoinfo {
+    position: absolute;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.section-projects--photoinfo h5 {
+    font-size: 20px;
+    font-weight: var(--semi-bold);
+}
+
+.section-projects--photoarea:hover .section-projects--photoinfo {
+    display: flex;
 }
