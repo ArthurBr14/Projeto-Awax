@@ -196,12 +196,12 @@ i {
     min-height: 100px;
 }
 
-.light {
+.default-light {
     background-color: #f7f7f7;
 
 }
 
-.dark {
+.default-dark {
     color: #fff;
     background-color: #000;
 }
@@ -338,4 +338,10 @@ i {
 
 .section-projects--photoarea:hover .section-projects--photoinfo {
     display: flex;
+}
+
+.bg-team {
+    background-image: url('../Mídia/bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
