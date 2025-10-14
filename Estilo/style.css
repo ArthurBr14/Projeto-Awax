@@ -24,7 +24,7 @@ header {
 }
 
 .header {
-    max-width: 1140px;
+    max-width: 1190px;
     height: 100px;
     margin: auto;
     display: flex;
@@ -136,10 +136,14 @@ i {
     text-decoration: none;
     padding: 10px 30px;
     margin-top: 30px;
+    margin-bottom: 15px;
     border-radius: 17px;
     justify-content: center;
     align-items: center;
+
 }
+
+
 
 .banner .sliders-pointers {
     width: 100vw;
@@ -165,33 +169,41 @@ i {
     background-color: #B28756;
 }
 
-.default {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
+.default-light,
+.default-dark {
+    width: 100%;
+    margin: 0;
+    padding-top: 5px;
 }
 
-.default .section-desc,
-.default .section-title {
+.default-light,
+.section-desc,
+.section-title {
     text-align: center;
     text-transform: uppercase;
     font-weight: var(--bold);
 }
 
-.default .section-title {
+.default-dark,
+.default-light,
+.section-title {
     margin-top: 25px;
     font-size: 25px;
 }
 
-.default .section-desc {
+
+.default-light,
+.section-desc {
     color: #ccc;
     margin-top: 13px;
     margin-bottom: 40px;
     font-size: 15px;
 }
 
-.default .section-body {
-    max-width: 1140px;
+
+.default-light,
+.section-body {
+    max-width: 1200px;
     margin: auto;
     min-height: 100px;
 }
@@ -344,4 +356,11 @@ i {
     background-image: url('../Mídia/bg.jpg');
     background-size: cover;
     background-position: center;
+    padding: 0;
+}
+
+.section-team-area {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
