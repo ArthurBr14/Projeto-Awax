@@ -356,7 +356,14 @@ i {
     background-image: url('../Mídia/bg.jpg');
     background-size: cover;
     background-position: center;
-    padding: 0px;
+    padding: 25px;
+}
+
+.section-body-team {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100px;
+    overflow: hidden;
 }
 
 .section-team-area {
@@ -367,19 +374,21 @@ i {
 
 .section-team {
     overflow: hidden;
-    align-items: center;
+    max-height: 880px;
 }
 
 .section-team .sliders {
-    width: 3000vw;
+    width: 1000vw;
     height: 100%;
 }
 
 .section-team .slide {
-    width: 100vw;
+    width: 280px;
     height: 100%;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.7);
+    min-height: 300px;
+    background-color: #fff;
+    margin-right: 20px;
 }
 
 .section-team .slidearea {
